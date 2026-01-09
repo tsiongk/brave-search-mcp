@@ -17,4 +17,4 @@ server = MCPServer(
 
 async def main() -> None:
     server.collect(*brave_tools)
-    await server.serve(port=3009)
+    await server.serve(port=8080)
