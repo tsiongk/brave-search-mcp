@@ -12,6 +12,7 @@ from brave import brave_tools
 server = MCPServer(
     name="brave-search-mcp",
     http_security=TransportSecuritySettings(enable_dns_rebinding_protection=False),
+    streamable_http_stateless=True,
 )
 
 
